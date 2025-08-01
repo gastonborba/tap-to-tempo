@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tap to Tempo</string>
+    <string name="tap_to_start">Toca para comenzar</string>
+    <string name="tap_more_times">Toca más veces\.\.\.</string>
+    <string name="tap">Tap</string>
+    <string name="reset">Reiniciar</string>
+    <string name="bpm">BPM</string>
+</resources>
