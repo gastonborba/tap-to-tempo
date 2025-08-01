@@ -50,3 +50,8 @@ local.properties
 
 # Ignore release files:
 app/build/outputs/
+
+# Ignore the entire 'release' folder
+*/release/
+
+*/debug/
