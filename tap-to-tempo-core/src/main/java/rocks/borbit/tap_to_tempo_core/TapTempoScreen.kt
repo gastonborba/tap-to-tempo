@@ -1,4 +1,4 @@
-package rocks.borbit.taptotempo
+package rocks.borbit.tap_to_tempo_core
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -25,6 +25,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.content.ContextCompat
 import kotlin.math.roundToInt
 
 @Composable
@@ -32,7 +33,7 @@ fun TapTempoScreen() {
     val context = LocalContext.current
 
     val bpmText = context.getString(R.string.bpm)
-    val tapButtonColor = Color(0xFF4CAF50)
+    val tapButtonColor = Color(ContextCompat.getColor(context, R.color.tapButtonColor))
 
     val tapTempo = remember { TapTempoCalculator() }
     var bpmDisplay by remember { mutableStateOf(context.getString(R.string.tap_to_start)) }

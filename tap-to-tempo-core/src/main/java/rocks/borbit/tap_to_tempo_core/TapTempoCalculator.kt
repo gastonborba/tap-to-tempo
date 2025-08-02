@@ -1,4 +1,4 @@
-package rocks.borbit.taptotempo
+package rocks.borbit.tap_to_tempo_core
 
 import android.os.SystemClock
 

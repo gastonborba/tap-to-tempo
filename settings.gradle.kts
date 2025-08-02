@@ -12,7 +12,7 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Tap to Tempo"
 include(":app")
- 
+include(":tap-to-tempo-core")

@@ -10,6 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import rocks.borbit.taptotempo.ui.theme.TapToTempoTheme
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import rocks.borbit.tap_to_tempo_core.TapTempoScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
